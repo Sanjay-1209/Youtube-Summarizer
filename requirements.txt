@@ -15,4 +15,4 @@ plotly
 plotly-express
 
 # Natural Language Processing for Sentiment Analysis
-nltk```
+nltk
