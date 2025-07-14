@@ -16,13 +16,3 @@ plotly-express
 
 # Natural Language Processing for Sentiment Analysis
 nltk```
-
-### How to use this file:
-
-1.  Save the content above into a file named `requirements.txt` in the same directory as your Python script.
-2.  Open your terminal or command prompt.
-3.  Navigate to the directory where you saved the file.
-4.  Run the following command to install all the required libraries at once:
-    ```bash
-    pip install -r requirements.txt
-    ```
