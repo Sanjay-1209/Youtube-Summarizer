@@ -1529,7 +1529,7 @@ with st.sidebar:
     st.divider()
 
     st.subheader("⚙️ Advanced Settings")
-    max_comments = st.slider("Max Comments to Analyze", min_value=100, max_value=1000, value=500, step=50,
+    max_comments = st.slider("Max Comments to Analyze", min_value=100, max_value=10000, value=500, step=50,
                              help="Number of comments to fetch and analyze (affects speed and API usage).")
     timeout_duration = st.slider("Gemini API Timeout (seconds)", min_value=30, max_value=180, value=90, step=10,
                                  help="Time to wait for a response from Gemini before retrying.")
