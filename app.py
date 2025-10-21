@@ -1675,7 +1675,7 @@ def call_gemini_api_with_retry(prompt: str, api_key: str, max_retries: int, time
     if not api_key:
         return "Error: Gemini API Key is missing. Please enter it in the sidebar."
     
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={api_key}"
     
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
@@ -1971,3 +1971,4 @@ with tab3:
             
     if 'contact_reason' in st.session_state:
         show_contact_info(st.session_state.contact_reason)
+
